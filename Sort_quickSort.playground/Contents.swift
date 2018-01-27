@@ -1,8 +1,6 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
 
-var str = "Hello, playground"
 
 let list = [ 1, 3, 2, 4, 9, 6, 5, 8, 7 ]
 
@@ -21,7 +19,7 @@ func quickSort(array: [Int], left: Int, right: Int) -> [Int]  {
         
         while i < j && a[i] <= key {
             i += 1
-        }
+         }
         a[j] = a[i]
     }
     a[i] = key
@@ -32,4 +30,6 @@ func quickSort(array: [Int], left: Int, right: Int) -> [Int]  {
 }
 
 quickSort(array: list, left: 0, right: list.count - 1)
+
+
 
